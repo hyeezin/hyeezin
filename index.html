@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SIMHYEJIN's Profile Page</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.easing.1.3.min.js"></script>
+  <script src="js/index.js?after"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/skills.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script> -->
+  <script src="https://kit.fontawesome.com/1bd24bdba0.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <header id="header">
+    <h1 class="logo">
+      <a href="/">HYE<strong>JIN</strong></a>
+    </h1>
+    <h2 class="menu-btn">
+      <a href="#" class="menu-trigger">
+        <span class="menu-trigger-t"></span>
+        <span class="menu-trigger-m"></span>
+        <span class="menu-trigger-b"></span>
+      </a>
+    </h2>
+    <!--메인 메뉴-->
+    <div class="menu-wrap">
+      <nav class="menu-list">
+        <ul>
+          <li><a href="#content">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#projects">PROJECT</a></li>
+          <li><a href="#other">OTHER</a></li>
+        </ul>
+      </nav>
+      <div id="menu-bg1" class="menu-bg"></div>
+      <div id="menu-bg2" class="menu-bg"></div>
+    </div>
+  </header>
+
+  <aside id="sns">
+    <div class="list">
+      <ul>
+          <li><a href="https://github.com/hyeezin" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+          <!-- <li><a href="#" target="_blank"><i class="fa fa-book" aria-hidden="true"></i></a></li> -->
+          <!-- <li><a href="#"><i class="fa fa-envelope-open" aria-hidden="true"></i></a></li> -->
+          <li><a href="https://www.instagram.com/h._.yzin" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+</aside>
+
+  <!--메인컨텐츠-->
+  <main id="content">
+    <section id="main">
+      <!-- 메인 왼쪽 화면-->
+      <div class="main-left">
+        <div class="main-left-txt">
+          <em>준비되어있는 웹퍼블리셔 Hyejin입니다.</em>
+          <p><span>HYEJIN'S</span>PORTFOLIO</p>
+        </div>
+      </div>
+
+      <!--스크롤 화면-->
+      <div class="scroll-color"></div>
+      
+      <!-- 메인 오른쪽 화면-->
+      <div class="main-right">
+        <figure><img src="img/profile-img.jpeg" alt="프로필사진"></figure>
+        <div class="bubble circle1"></div>
+        <div class="bubble circle2"></div>
+        <div class="bubble circle3"></div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+      <div class="tit">
+        <h2><a href="#">ABOUT</a></h2>
+      </div>
+
+      <div class="about-box" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+        <div class="about-left">
+          <figure><img src="img/profile-b.JPG"></figure>
+          <div class="about-left-txt">
+            항상 준비되어있는 웹퍼블리셔,
+            심혜진입니다. 
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="about-me-box">
+
+            <!-- myself -->
+            <h3>ABOUT ME</h3>
+            <ul>
+              <li>심혜진 / SIM HYE JIN</li>
+              <li>1997.11.07</li>
+              <li>010 - 7660 - 0564</li>
+              <li>hyeeeezin@gmail.com</li>
+            </ul>
+          </div>
+
+          <!-- education -->
+          <div class="about-ed-box">
+            <h3 class="about-ed-tit">EDUCATION</h3>
+            <p class="about-ed-date">2022.04-2022.09</p>
+            <div class="about-ed-txt">
+              <strong>프론트엔드 개발자(UI/UX웹디자인&웹퍼블리싱)</strong>
+            </div>
+          </div>
+
+          <!-- certificate -->
+          <div class="about-ce-box">
+            <h3 class="about-ce-tit">CERTIFICATE</h3>
+            <div class="about-ce-list">
+              <ul>
+                <li>2022.07</li>
+                <li>웹디자인기능사 필기합격</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- career -->
+          <div class="about-ca-box">
+            <h3 class="about-ca-tit">CAREER</h3>
+            <div class="about-ca-list">
+              <ul>
+                <li>201909 - 202002 <span>관세법인 태영</span></li>
+                <li>202004 - 202101 <span>바누아투 제과점</span></li>
+                <li>202104 - 202204 <span>투썸플레이스</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- skill percent -->
+          <div class="about-per-box">
+            <h3 class="about-per-tit">SKILL</h3>
+            <div class="about-per-wrap">
+
+              <div class="row">
+                <div class="col1">HTML5</div>
+                <div class="progress" role="progressbar">
+                  <div class="progress-bar progress01"></div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col1">CSS3</div>
+                <div class="progress" role="progressbar">
+                  <div class="progress-bar progress02"></div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col1">JQUERY</div>
+                <div class="progress" role="progressbar">
+                  <div class="progress-bar progress03"></div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col1">JavaScript</div>
+                <div class="progress" role="progressbar">
+                  <div class="progress-bar progress04"></div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col1">PHOTOSHOP</div>
+                <div class="progress" role="progressbar">
+                  <div class="progress-bar progress05"></div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col1">FIGMA & ZEPLIN</div>
+                <div class="progress" role="progressbar">
+                  <div class="progress-bar progress06"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- skills -->
+    <section id="skills">
+      <div class="tit">
+        <h2><a href="#">SKILLS</a></h2>
+      </div>
+
+      <!--skills1-->
+      <div class="skills1">
+
+        <!-- skills-left-tit -->
+        <div class="skills-left">
+          <ul class="skills-left-box">
+            <!--html&css tit-->
+            <li>
+              <em class="skills-tit"><span>XHTML&HTML5&CSS3</span></em>
+            </li>
+            <!--javascript-->
+            <li>
+              <em class="skills-tit"><span>JAVA<br>SCRIPT</span></em>
+            </li>
+            <!--others-->
+            <li>
+              <em class="skills-tit"><span>OTHERS</span></em>
+            </li>
+          </ul>
+        </div>
+        <!-- skills-right-txt -->
+        <div class="skills-right">
+          <ul class="skills-right-box">
+            <!--html&css text-->
+            <li><!--수정예정-->
+              <em>한국형 웹 콘텐츠 접근성 지침(KWCAG 2.1) 준수</em>
+              <em>반응형 웹과 크로스 브라우징에 대한 이해 및 경험</em>
+              <em>시멘틱 마크업을 통한 구조 설계</em>
+              <!-- <em>SASS를 이용한 </em> -->
+            </li>
+            <!--java script text-->
+            <li>
+              <em>jquery 및</em>
+              <em>순수 자바스크립트(Vanila Javascript) 활용 가능</em>
+            </li>
+            <!--others text-->
+            <li>
+              <em>UI / UX에 대한 이해</em>
+              <em>그누보드 사용</em>
+              <em>zeplin 디자인 공유 툴 경험</em>
+              <em>Github 관리</em>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects 가로스크롤 -->
+    <section id="projects">
+      <div class="tit">
+        <h2><a href="#">PROJECTS</a></h2>
+      </div>
+
+      <div class="projects-list">
+
+        <!-- scss를 이용한 간단한 포트폴리오 -->
+        <!-- <div class="projects0" data-aos="fade-right" data-aos-easing="ease-in-sine data-aos-duration="1000"> -->
+          <!--projects img-->
+          <!-- <div class="projects-left">
+            <figure><img src="img/cleantopia.png" alt="scss를 이용한 포트폴리오 사이트"></figure>
+          </div> -->
+          <!--projects text-->
+          <!-- <div class="projects-right">
+            <div class="projects-textbox">
+              <p class="textbox-tit"
+                PART 01
+              </p>
+              <p class="textbox-keywords">
+                <mark>#SCSS #반응형</mark>
+              </p>
+              <p class="textbox-period"><span>PERIOD</span>2022.09</p>
+              <p class="textbox-contribution">기여도 코딩 100%</p>
+              <p class="textbox-txt">
+                오직 HTML과 CSS만을 이용하여 구현한 사이트입니다. JQUERY없이 checkbox속성과 animation속성을 이용하여 메인메뉴를 구성하였고, 모든 스타일은 SCSS를 사용하여 유지보수가 용이하도록 구현하였습니다.
+              </p>
+              <div class="page-btn"><a href="">VIEW PAGE</a></div>
+            </div>
+          </div>
+        </div> -->
+
+        <!--hubiz 반응형홈페이지-->
+        <div class="projects1" data-aos="fade-left" data-aos-easing="ease-in-sine data-aos-duration="1000">
+          <!--projects img-->
+          <div class="projects-left">
+            <figure><img src="img/hubiz.png" alt="hubiz반응형사이트"></figure>
+          </div>
+          <!--projects text-->
+          <div class="projects-right">
+            <div class="projects-textbox">
+              <p class="textbox-tit"><!--after border-bottom-->
+                PART 01
+              </p>
+              <p class="textbox-keywords">
+                <mark>#반응형 #애니메이션 #AOS</mark>
+              </p>
+              <p class="textbox-period"><span>PERIOD</span>2022.08</p>
+              <p class="textbox-contribution">기여도 코딩 100%</p>
+              <p class="textbox-txt"><!--수정예정-->
+                순수 자바스크립트와 jquery를 사용해 만든 반응형 웹사이트 입니다. 다양한 애니메이션 효과를 넣었고, aos를 사용하였습니다.
+                서브페이지도 반응형으로 제작하였습니다.
+              </p>
+              <div class="page-btn"><a href="http://hyeezin1.dothome.co.kr/" target="_blank">VIEW PAGE</a></div>
+            </div>
+          </div>
+        </div>
+        
+        <!--cleantopia 홈페이지-->
+        <div class="projects2" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+          <!--projects img-->
+          <div class="projects-left">
+            <figure><img src="img/cleantopia.png" alt="cleantopia 홈페이지"></figure>
+          </div>
+          <!--projects text-->
+          <div class="projects-right">
+            <div class="projects-textbox">
+              <p class="textbox-tit"><!--after border-bottom-->
+                PART 02
+              </p>
+              <p class="textbox-keywords">
+                <mark>#그누보드 #PHP</mark>
+              </p>
+              <p class="textbox-period"><span>PERIOD</span>2022.07</p>
+              <p class="textbox-contribution">기여도 코딩 100%</p>
+              <p class="textbox-txt"><!--수정예정-->
+                그누보드를 이용한 웹페이지입니다. 서브페이지를 제작하며 그누보드 스킨을 활용해 지도, 게시판 등을 넣었습니다. 
+                모든 서브페이지와 로그인, 회원가입 페이지까지 제작하였습니다.
+              </p>
+              <div class="page-btn"><a href="http://hyeezin2.dothome.co.kr/" target="_blank">VIEW PAGE</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!--경주문화관광-->
+        <div class="projects3" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+          <!--projects img-->
+          <div class="projects-left">
+            <figure><img src="img/gyeonju.png" alt="경주문화관광 리뉴얼 홈페이지"></figure>
+          </div>
+          <!--projects text-->
+          <div class="projects-right">
+            <div class="projects-textbox">
+              <p class="textbox-tit"><!--after border-bottom-->
+                PART 03
+              </p>
+              <p class="textbox-keywords">
+                <mark>#XHTML #리뉴얼 #PHOTOSHOP</mark>
+              </p>
+              <p class="textbox-period"><span>PERIOD</span>2022.06 - 2022.07</p>
+              <p class="textbox-contribution">기여도 코딩 100% 디자인 100%</p>
+              <p class="textbox-txt"><!--수정예정-->
+                경주문화관광 홈페이지를 리뉴얼했습니다. 디자인부터 코딩까지 100% 혼자 작업하였고, XHTML을 이용하여 제작하였습니다. 
+              </p>
+              <div class="page-btn"><a href="http://hyeezin.dothome.co.kr/" target="_blank">VIEW PAGE</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- other -->
+    <section id="other">
+      <div class="tit">
+        <h2><a href="#">OTHER</a></h2>
+      </div>
+
+      <div class="other-box">
+        <ul class="other-box-list">
+          
+          <!-- vanila-->
+          <li class="vanila">
+            <h3>VANILAJS</h3>
+            <figure><img src="/img/vanila-sc.png" alt=""></figure>
+            <div class="img-bg"></div>
+            <em class="other-txt">VanilaJS를 사용해 위치에 따른 실시간 날씨와 시간, <br>TodoList를 작성할 수 있게 하는 페이지를 제작했습니다.</em>
+            <a href="/web/vanila/index.html" target="_blank" class="other-btn">VIEW PAGE</a>
+          </li>
+
+          <!-- hover-effect-->
+          <!-- <li class="hover">
+            <h3>HOVER EFFECT</h3>
+            <div class="hover-wrap">
+              <div class="hover-universe">
+                <h4><span>THE</span> UNIVERSE</h4>
+                <p>Star Trek was a science fiction show about the crew of a space ship that explored the universe.</p>
+                <div>
+                  <ul>
+                    <li><a href="#"><span class="material-symbols-outlined">favorite</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">home</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">logout</span></a></li>
+                  </ul>
+                </div>
+                <figure><img src="/img/hover-uni.jpg" alt=""></figure>
+              </div>
+              <div class="hover-forest">
+                <h4><span>THICK</span> FOREST</h4>
+                <p>The forest’s dense growth provides nesting places for a wide variety of birds.</p>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+                <figure><img src="/img/hover-for1.jpg" alt=""></figure>
+                <figure><img src="/img/hover-for2.jpg" alt=""></figure>
+              </div>
+            </div>
+          </li> -->
+          <!-- dynamic -->
+          <!-- <li class="dyn"> -->
+
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+
+
+  </main>
+  <footer id="footer">
+    <h2 class="tit">CONTACT ME</h2>
+    <p class="desc">Thank you for reviewing my portfolio ♥︎</p>
+    <div class="f-cont">
+        <div class="f-left">
+            <figure>
+                <img src="img/footer.jpeg" alt="footerme">
+            </figure>
+        </div>
+        <div class="f-right">
+            <div class="f-mail">
+                <form method="POST" action="#" class="f-form">
+                    <div class="fName">
+                        <input type="text" name="name" placeholder="Your name">
+                    </div>
+                    <div class="fEmail">
+                        <input type="email" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="fMassage">
+                        <textarea name="massage" cols="30" rows="10" placeholder="Massage"></textarea>
+                    </div>
+                    <button type="submit" class="f-btn"><a href="mailto:hyeeeezin@gmail.com">SEND</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copy">HYEJIN &copy; 2022PORTFOLIO</div>
+  </footer>
+
+  <!-- popup 알림창 -->
+  <div id="popup-bg">
+    <div id="popup">
+      <div id="popup-tit">해상도 지원 안내창</div>
+      <div id="popup-txt">해당 사이트는 개인 포트폴리오 목적으로 제작되어 상업적 목적이 아닙니다. <br><span>1920px 해상도에 최적화</span>되어 있습니다.</div>
+      <span id="close">닫기</span>
+    </div>
+  </div>
+</body>
+</html>

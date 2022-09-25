@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Today</title>
+
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <main>
+    <h1 id="clock">00:00:00</h1>
+    <form class="hidden" id="login-form">
+      <input id="login-box" required maxlength="15" type="text" placeholder="What is your name?">
+      <input id="login-btn" type="submit" value="Log In">
+    </form>
+    <h2 id="greeting" class="hidden"></h2>
+    <form id="todo-form">
+      <h2>✊ 할 일 목록 ✊</h2>
+      <input id="todo-box" type="text" placeholder="Write a To Do" required>
+    </form>
+    <ul id="todo-list"></ul>
+  </main>
+  
+  <footer>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+  </footer>
+
+
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/greeting.js"></script>
+  <script src="js/clock.js"></script>
+</body>
+</html>
